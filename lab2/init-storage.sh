@@ -31,7 +31,7 @@ az storage container create \
   --name "${CONTAINER_NAME}" \
   --account-name "${STORAGE_ACCOUNT_NAME}"
 
-cat << EOF > auto.tfvars
+cat << EOF > .auto.tfvars
 prefix = "${FIRST_NAME}lab2"
 EOF
 
