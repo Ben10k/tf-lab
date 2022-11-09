@@ -11,14 +11,3 @@ resource "azurerm_subnet" "subnet" {
   virtual_network_name = azurerm_virtual_network.vnet.name
   address_prefixes     = ["10.0.2.0/24"]
 }
-
-variable "rg_name" {}
-variable "location" {}
-variable "prefix" {}
-variable "subnet_name" {
-  default = "internal"
-}
-
-output "subnet_id" {
-  value = azurerm_subnet.subnet.id
-}
