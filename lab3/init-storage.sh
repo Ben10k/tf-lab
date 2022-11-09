@@ -32,7 +32,7 @@ az storage container create \
   --account-name "${STORAGE_ACCOUNT_NAME}"
 
 cat << EOF > auto.tfvars
-prefix = "${FIRST_NAME}lab2"
+prefix = "${FIRST_NAME}"
 EOF
 
 echo "RESOURCE_GROUP_NAME:  \"${RESOURCE_GROUP_NAME}\""
