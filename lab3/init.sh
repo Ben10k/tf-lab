@@ -25,12 +25,4 @@ storage_account_name = "${STORAGE_ACCOUNT_NAME}"
 EOF
 
 echo "________________________________________________________________"
-echo "Provisioning complete. You can proceed with the next steps:"
-echo "1. Inspect all created files"
-echo "2. Initialize terraform with the creatend \"backend.hcl\" config: terraform init -backend-config=backend.hcl"
-echo "3. Create and store the terraform plan"
-echo "4. Inspect the created plan"
-echo "5. Apply the plan"
-echo "6. Verify the created resources on Azure portal"
-echo "7. Inspect the terraform state in the provisioned bucket"
-echo "8. Happy terraforming!"
+echo "Provisioning complete. You can proceed with the next steps."
